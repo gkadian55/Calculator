@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link href="Calculator.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="js-display display"></div>
+
+<div>
+  <button onclick="
+    updateCalculation('1');
+  ">1</button>
+
+  <button onclick="
+    updateCalculation('2');
+  ">2</button>
+
+  <button onclick="
+    updateCalculation('3');
+  ">3</button>
+
+  <button class="operator-button" onclick="
+    updateCalculation(' + ');
+  ">+</button>
+</div>
+
+<div>
+  <button onclick="
+    updateCalculation('4');
+  ">4</button>
+
+  <button onclick="
+    updateCalculation('5');
+  ">5</button>
+
+  <button onclick="
+    updateCalculation('6');
+  ">6</button>
+
+  <button class="operator-button" onclick="
+    updateCalculation(' - ');
+  ">-</button>
+</div>
+
+<div>
+  <button onclick="
+    updateCalculation('7');
+  ">7</button>
+
+  <button onclick="
+    updateCalculation('8');
+  ">8</button>
+
+  <button onclick="
+    updateCalculation('9');
+  ">9</button>
+
+  <button class="operator-button" onclick="
+    updateCalculation(' * ');
+  ">&#215;</button>
+</div>
+
+<div>
+  <button onclick="
+    updateCalculation('0');
+  ">0</button>
+
+  <button onclick="
+    updateCalculation('.');
+  ">.</button>
+
+  <button onclick="
+    updateCalculation('=');
+  ">=</button>
+
+  <button class="operator-button" onclick="
+    updateCalculation(' / ');
+  ">/</button>
+</div>
+
+<div>
+  <button class="clear" onclick="
+    updateCalculation('Clear');
+  ">Clear</button>
+</div>
+
+<script src="Calculator.js"></script>
+
+</body>
+
+</html>

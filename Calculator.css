@@ -1,0 +1,28 @@
+body{
+  font-family: arial;
+  background-color: black;
+  margin: 20px;
+}
+.display{
+  height: 55px;
+  font-size: 48px;
+  color: white;
+}
+button{
+  height: 60px;
+  width: 60px;
+  border: none;
+  font-size: 26px;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50px;
+  margin-right: 6px;
+  margin-top: 14px;
+}
+.operator-button{
+  background-color: orange;
+  margin-right: 0;
+}
+.clear{
+  font-size: 18px;
+}
